@@ -1,8 +1,10 @@
-#E-Commerce Supply Chain & Operations Analytics
+# E-Commerce Supply Chain & Operations Analytics
 
 End-to-end Supply Chain Analytics project using **Python** and **Power BI** on the Brazilian E-Commerce (Olist) dataset.
 
 ## Project Overview
+
+This project analyzes 100K+ real e-commerce orders to evaluate delivery performance, inventory i
 
 This project analyzes 100K+ real e-commerce orders to evaluate delivery performance, inventory implications, and operational efficiency. Beyond basic reporting, the project includes safety stock estimation, scenario analysis, and commercial recommendations aimed at improving service levels and reducing fulfillment risk.
 
