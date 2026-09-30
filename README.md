@@ -1,5 +1,4 @@
-```markdown
-# E-Commerce Supply Chain & Operations Analytics
+E-Commerce Supply Chain & Operations Analytics
 
 End-to-end Supply Chain Analytics project using **Python** and **Power BI** on the Brazilian E-Commerce (Olist) dataset.
 
