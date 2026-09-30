@@ -108,7 +108,3 @@ This project analyzes 100K+ real e-commerce orders to evaluate delivery performa
 If you find this project useful, feel free to star the repository!
 ```
 
----
-
-Just paste this and commit.  
-After you update it, tell me and I can also give you the stronger **CV bullet points**.
