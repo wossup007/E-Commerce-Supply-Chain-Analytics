@@ -50,9 +50,9 @@ This project analyzes 100K+ real e-commerce orders to evaluate delivery performa
    - Added business recommendations based on analysis
 
 ## Dashboard Pages
-<img width="1340" height="755" alt="Page 1" src="https://github.com/user-attachments/assets/af06e321-b8ca-48f5-bfb4-121cbcb25a36" />
-<img width="1486" height="831" alt="image" src="https://github.com/user-attachments/assets/b3ed7e33-2a6b-4781-86e1-9e3d3ca338f8" />
-<img width="1490" height="834" alt="image" src="https://github.com/user-attachments/assets/002cda28-9f4f-4936-94a3-d3c1ed2842ba" />
+<img width="1484" height="831" alt="image" src="https://github.com/user-attachments/assets/f322e971-691d-4a6c-89d5-b6481ed5e05b" />
+<img width="1485" height="831" alt="image" src="https://github.com/user-attachments/assets/b0b4349b-673d-4262-8e62-3ce92c471539" />
+<img width="1483" height="831" alt="image" src="https://github.com/user-attachments/assets/1d58ffd7-8a51-43b1-bc68-aa3f9b21879a" />
 
 ### 1. Executive Overview
 - Total Revenue, Total Orders, Average Lead Time
