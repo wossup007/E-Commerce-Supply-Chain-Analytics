@@ -1,56 +1,64 @@
-# E-Commerce Supply Chain & Operations Analytics Dashboard
+```markdown
+# E-Commerce Supply Chain & Operations Analytics
 
 End-to-end Supply Chain Analytics project using **Python** and **Power BI** on the Brazilian E-Commerce (Olist) dataset.
 
 ## Project Overview
 
-This project builds an end-to-end supply chain analytics pipeline using Python (for ETL and data preprocessing) and Power BI (for executive dashboard visualization). Processing over 100,000+ e-commerce orders, the system tracks key operational bottlenecks, delivery efficiency, and regional fulfillment dynamics.
+This project analyzes 100K+ real e-commerce orders to evaluate delivery performance, inventory implications, and operational efficiency. Beyond basic reporting, the project includes safety stock estimation, scenario analysis, and commercial recommendations aimed at improving service levels and reducing fulfillment risk.
 
 ### Key Objectives
-- Clean and prepare raw e-commerce data using Python
-- Calculate important Supply Chain KPIs (Lead Time, On-Time Delivery %, Delay Rate)
-- Build an interactive Power BI dashboard with 3 pages
-- Generate insights and simple revenue forecast
+- Clean and transform raw e-commerce data using Python
+- Calculate core supply chain KPIs (Lead Time, On-Time Delivery, Delay Rate)
+- Perform inventory & safety stock analysis by product category
+- Run scenario analysis to measure the impact of operational improvements
+- Build an interactive 3-page Power BI dashboard
+- Deliver actionable business recommendations
 
 ## Tools & Technologies
 
-- **Python** (Pandas, NumPy) – Data Cleaning & Feature Engineering
+- **Python** (Pandas, NumPy) – Data Cleaning, Feature Engineering, Inventory & Scenario Analysis
 - **Power BI** – Interactive Dashboard & Visualization
-- **DAX** – Measures and KPIs
+- **DAX** – KPI Measures
 
 ## Dataset
 
 - Source: [Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - Period: 2016 – 2018
-- Approx. 100,000+ orders
+- Size: 100,000+ delivered orders
 
 ## Project Workflow
 
 1. **Data Cleaning & Feature Engineering (Python)**
-   - Merged multiple tables (Orders, Items, Products, Customers, Sellers)
-   - Created key features:
-     - Lead Time
-     - Delivery Delay
-     - On-Time / Delayed flag
-     - Total Order Value
+   - Merged Orders, Order Items, Products, Customers, and Sellers tables
+   - Created key features: Lead Time, Delivery Delay, On-Time/Delayed flag, Total Order Value
    - Filtered only delivered orders
 
-2. **Power BI Dashboard**
-   - Built interactive report with 3 pages
-   - Created DAX measures for KPIs
-   - Added Month slicer and dynamic insights
+2. **Inventory & Safety Stock Analysis**
+   - Calculated average daily demand and demand variability by product category
+   - Estimated safety stock using 95% service level (z = 1.65)
+   - Identified categories requiring higher inventory buffers
+
+3. **Scenario Analysis**
+   - Scenario A: Impact of removing/improving the worst-performing sellers
+   - Scenario B: Impact of reducing lead time for high-delay categories by 20%
+   - Measured changes in On-Time Delivery rate and Average Lead Time
+
+4. **Power BI Dashboard**
+   - Designed a 3-page interactive report
+   - Created DAX measures for key operational KPIs
+   - Added business recommendations based on analysis
 
 ## Dashboard Pages
 <img width="1340" height="755" alt="Page 1" src="https://github.com/user-attachments/assets/af06e321-b8ca-48f5-bfb4-121cbcb25a36" />
 <img width="1486" height="831" alt="image" src="https://github.com/user-attachments/assets/b3ed7e33-2a6b-4781-86e1-9e3d3ca338f8" />
-<img width="1341" height="754" alt="Page 3" src="https://github.com/user-attachments/assets/6108dfa5-303b-41b9-b358-b9e3d2e666ac" />
+<img width="1490" height="834" alt="image" src="https://github.com/user-attachments/assets/002cda28-9f4f-4936-94a3-d3c1ed2842ba" />
 
 ### 1. Executive Overview
-- Total Revenue, Total Orders, Avg Lead Time
+- Total Revenue, Total Orders, Average Lead Time
 - On-Time Delivery % and Delayed %
 - Monthly Revenue Trend
 - Top Product Categories by Revenue
-- Quick Insights
 
 ### 2. Delivery Performance
 - Average Lead Time by Customer State
@@ -61,23 +69,45 @@ This project builds an end-to-end supply chain analytics pipeline using Python (
 ### 3. Insights & Forecast
 - Monthly Revenue Forecast
 - Revenue by Customer State
-- Key Insights & Recommendations
+- Key Insights
+- Business Recommendations
 
 ## Key Insights
 
-- Overall On-Time Delivery Rate: **~93%**
-- Average Lead Time: **~12 days**
-- Top performing category: **Health & Beauty**
-- Highest revenue month: **May**
-- Lowest revenue month: **September**
+- Overall On-Time Delivery Rate: **≈ 93%**
+- Average Lead Time: **≈ 12 days**
+- Top category by revenue: **Health & Beauty**
+- Office Furniture shows the longest lead time (20+ days) and elevated delay rate
+- Several high-volume categories (Baby, Electronics, Health & Beauty) have above-average delay rates
+
+## Business Recommendations
+
+- Prioritise **Office Furniture** category due to long lead time and higher delay rate
+- Focus seller performance improvement on **Baby, Electronics, and Health & Beauty**
+- Increase safety stock for high demand-variability categories to protect service levels
+- Introduce seller tiering (A/B/C) based on delay rate and lead time performance
+- Target lead time reduction in underperforming seller states
+
+## Skills Demonstrated
+
+- Data Cleaning & Feature Engineering
+- Supply Chain KPI Development
+- Inventory & Safety Stock Analysis
+- Scenario / What-if Analysis
+- Dashboard Design in Power BI
+- Translating data into commercial recommendations
 
 ## How to Use
 
-1. Download / Clone this repository
+1. Clone this repository
 2. Open the `.pbix` file in Power BI Desktop
-3. (Optional) Run the Python notebook to reproduce the cleaned dataset
+3. (Optional) Run the Python script to reproduce the cleaned dataset and analysis
 
+
+If you find this project useful, feel free to star the repository!
+```
 
 ---
-Dashboard file is available in the repository. Open with Power BI Desktop.
-Feel free to star this repository if you find it useful!# E-Commerce-Sales-Dashboard
+
+Just paste this and commit.  
+After you update it, tell me and I can also give you the stronger **CV bullet points**.
